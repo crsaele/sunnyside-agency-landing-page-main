@@ -1,21 +1,43 @@
 :root {
-    /* PRIMARY */
-    --softRed: hsl(7, 99%, 70%);
-    --yellow: hsl(51, 100%, 49%);
-    --darkDesaturatedCyan: hsl(167, 40%, 24%);
-    --darkBlue: hsl(198, 62%, 26%);
-    --darkModerateCyan: hsl(168, 34%, 41%);
+  /* PRIMARY */
+  --softRed: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --darkDesaturatedCyan: hsl(167, 40%, 24%);
+  --darkBlue: hsl(198, 62%, 26%);
+  --darkModerateCyan: hsl(168, 34%, 41%);
 
-    /* NEUTRAL */
-    --veryDarkDesaturatedBlue: hsl(212, 27%, 19%);
-    --veryDarkGrayishBlue: hsl(232, 10%, 55%);
-    --grayishBlue: hsl(210, 4%, 67%);
-    --white: hsl(0, 0%, 100%);
+  /* NEUTRAL */
+  --veryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+  --veryDarkGrayishBlue: hsl(232, 10%, 55%);
+  --grayishBlue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
 
-    /* FONTS */
-    --barlow: 'Barlow', sans-serif;
-    --fraunces: 'Fraunces', sans-serif;
+  /* FONTS */
+  --barlow: "Barlow", sans-serif;
+  --fraunces: "Fraunces", sans-serif;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+header {
+    background-image: url(images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 475px;
+    font-family: var(--fraunces);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 30px 0;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
