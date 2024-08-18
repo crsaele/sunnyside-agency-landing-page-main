@@ -41,13 +41,29 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+  color: var(--grayishBlue);
+  text-transform: uppercase;
+}
+
+h3, h4 {  
+  font-family: var(--fraunces);
+  font-weight: 900;
+}
+
 p {
     font-family: var(--barlow);
+    margin: 20px 0;
     color: var(--veryDarkDesaturatedBlue);
     font-weight: 600;
 }
 
 button {
+  font-family: var(--barlow);
+}
+
+span {
+  color: var(--grayishBlue);
   font-family: var(--barlow);
 }
 
@@ -77,6 +93,12 @@ button {
 
 .photography div {
   padding-top: 280px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  margin: 10px 0;
 }
 
 .attribution {
