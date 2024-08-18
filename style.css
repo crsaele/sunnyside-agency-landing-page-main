@@ -34,6 +34,51 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-family: var(--fraunces);
+    margin: 20px 0  ;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+p {
+    font-family: var(--barlow);
+    color: var(--veryDarkDesaturatedBlue);
+    font-weight: 600;
+}
+
+button {
+  font-family: var(--barlow);
+}
+
+.graphic-design {
+  background-image: url(images/mobile/image-graphic-design.jpg);
+  font-family: var(--fraunces);
+  background-color: var(--darkModerateCyan);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 475px;
+}
+
+.photography {
+  background-image: url(images/mobile/image-photography.jpg);
+  background-color: var(--darkBlue);
+  font-family: var(--fraunces);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 475px;
+}
+
+.graphic-design div {
+  padding-top: 280px;
+}
+
+.photography div {
+  padding-top: 280px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
